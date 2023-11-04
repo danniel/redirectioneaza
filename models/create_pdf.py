@@ -1,9 +1,8 @@
 
 import base64
 import os
-import StringIO
 import tempfile
-from io import BytesIO
+from io import BytesIO, StringIO
 from datetime import datetime
 
 from pyPdf import PdfFileWriter, PdfFileReader
